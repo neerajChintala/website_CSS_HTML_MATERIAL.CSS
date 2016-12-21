@@ -1,0 +1,32 @@
+.card_new
+{
+	width: 600px;
+	height: 300px;
+ margin:1%;
+ padding:5%;
+ border:1%;
+ margin:10px;
+ webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.61);
+-moz-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.61);
+box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.61);
+box-sizing:border-box;
+position: relative;
+float: center;
+
+}
+.head
+{
+	display:block;
+	width:100%;
+	height: 80px;
+	background-color: linear-gradient(to-bottom,#1976D2,#0D47A1,50%);
+}
+.card_pad
+{
+  padding-top: 20%;
+  padding:10%;
+  padding-left: 30%;
+  padding-bottom: 20%;
+
+
+}
