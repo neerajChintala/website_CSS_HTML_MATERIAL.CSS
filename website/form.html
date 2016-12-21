@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Registration form</title>
+    <style type="text/css">
+    * {
+    font-family: lato;
+}
+
+header {
+    background-color: #F44336;
+    font-size: 350%;
+    color: aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* form-page */
+
+#bodyy {
+    background-color: #E3F2FD;
+    color: aliceblue;
+}
+
+#formy {
+    background-color: aliceblue;
+    color: black;
+    height: 42em;
+    width: 120vh;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+#space{
+    
+    padding: 5;
+    margin: 5;
+    
+}
+
+#signup{
+    
+    font-weight: 200%;
+    
+}
+input{
+    text-align:center;
+
+}
+/**/
+
+
+/* form page */
+
+#sed {
+    margin: 20 50 20 50;
+}
+input[type="submit"] {
+    margin-top: 30px;
+    width: 120px;
+    height: 30px;
+    background: #16a085;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    
+    font-weight: 500;
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+}
+
+input[type="submit"]:active {
+    transition: 0.1s ease;
+}</style>
+</head>
+
+<body id="bodyy">
+
+    <header class="z-depth-2">
+        Header
+
+    </header>
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+    <div id="formy" class="z-depth-5">
+       <div id="space">
+        
+
+            <span><h4>Register</h4></span>
+            <br>
+            <div class="input-field col s6">
+            <input placeholder="First Name" id="first_name" type="text" class="validate">
+             </div><div class="input-field col s6">
+            <input placeholder="Last Name" id="last_name" type="text" class="validate">
+        </div>
+        <div class="input-field col s12">
+            <input type="text" name="email" placeholder="E-mail" />
+            <input type="password" name="password" placeholder="Password" />
+            <input type="text" name="interest" placeholder="Areas of interest" />
+            <input type="text" name="questions" placeholder="Questions you would like to ask" />
+            <input type="text" name="idea" placeholder="Any Idea's you would like to work on ?" />
+            <div id="signup">
+            <input type="submit" name="signup_submit" value="SIGN ME UP" />
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+</div>
+</form>
+</div>
+
+</body>
+
+
+</html>
